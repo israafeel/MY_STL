@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/4/2 11:02:09。
+     1>项目“E:\VC_12_Workspace\STL源码剖析\STL源码剖析\STL源码剖析.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt __sub_alloc_template.cpp "源.cpp"
+         __sub_alloc_template.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         源.cpp
+       Link:
+         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VC_12_Workspace\STL源码剖析\Debug\STL源码剖析.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VC_12_Workspace\STL源码剖析\Debug\STL源码剖析.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VC_12_Workspace\STL源码剖析\Debug\STL源码剖析.lib" /MACHINE:X86 Debug\__malloc_alloc_template.obj
+         Debug\__sub_alloc_template.obj
+         "Debug\源.obj"
+     1>源.obj : error LNK2019: 无法解析的外部符号 "private: static void * __cdecl __sub_alloc_template<0>::refill(unsigned int)" (?refill@?$__sub_alloc_template@$0A@@@CAPAXI@Z)，该符号在函数 "public: static void * __cdecl __sub_alloc_template<0>::allocate(unsigned int)" (?allocate@?$__sub_alloc_template@$0A@@@SAPAXI@Z) 中被引用
+     1>源.obj : error LNK2001: 无法解析的外部符号 "private: static union __sub_alloc_template<0>::obj * * __sub_alloc_template<0>::free_list" (?free_list@?$__sub_alloc_template@$0A@@@0PAPATobj@1@A)
+     1>E:\VC_12_Workspace\STL源码剖析\Debug\STL源码剖析.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\VC_12_Workspace\STL源码剖析\STL源码剖析\STL源码剖析.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.69
